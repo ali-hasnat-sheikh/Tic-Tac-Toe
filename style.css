@@ -1,0 +1,41 @@
+body{
+    background-color: purple;
+}
+#heading{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: violet;
+    color: white;
+    display: inline;
+    position: absolute;
+    right: 40vw;
+}
+#container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 300px;
+    width: 300px;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+}
+.btn{
+    border: none;
+    height: 90px;
+    width: 90px;
+    background-color: violet;
+    border-radius: 10%;
+    color: rgb(255, 0, 98);
+    font-size: 50px;
+    font-weight: 600;
+}
+#reset{
+    border: 2px solid rgb(255, 255, 255);
+    font-size: 18px;
+    color: rgb(158, 143, 143) ;
+    background-color: #191913;
+}
